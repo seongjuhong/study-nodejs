@@ -67,12 +67,12 @@ Node.js 탄생배경 및 특징
 
 1. TCP socket: 기본 내장 net 모듈로 TCP 소켓 통신
 2. WebSocket: HTTP 프로토콜을 기반으로 양방향 통신(full-duplex)
-- 방화벽 호완 높음
-- 웹브라우저 호완 낮음(http://caniuse.com/#feat=websockets)
+	- 방화벽 호완 높음
+	- 웹브라우저 호완 낮음(http://caniuse.com/#feat=websockets)
 3. socket.io: WebSocket 등 실시간 통신 기술의 웹 브라우저 호환성 문제를 해결하기 위해 생김
-- WebSocket, Flash Socket, AJAX Long Polling, AJAX Multipart Streaming, Forever iframe, JSONP Polling 기술을 모두 포함
-- 웹 브라우저의 종류와 버전에 따라 최적화된 기술을 알아서 사용하면 됨
-- 개발자는 여러가지 실시간 통신 기술을 신경쓸 필요 없이 일관된 API와 문법을 사용하여 개발
+	- WebSocket, Flash Socket, AJAX Long Polling, AJAX Multipart Streaming, Forever iframe, JSONP Polling 기술을 모두 포함
+	- 웹 브라우저의 종류와 버전에 따라 최적화된 기술을 알아서 사용하면 됨
+	- 개발자는 여러가지 실시간 통신 기술을 신경쓸 필요 없이 일관된 API와 문법을 사용하여 개발
 
 
 > 실습6. WebSocket
