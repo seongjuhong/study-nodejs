@@ -1,14 +1,6 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-  <title>Example WebSocket</title>
-</head>
-<body>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript">
 if ('WebSocket' in window) {
-  var ws = new WebSocket('ws://127.0.0.1:3030', 'example-echo');
+  var ws = new WebSocket('ws://127.0.0.1:8000', 'example-echo');
 
   ws.onopen = function () {
     $('#status').text('connected');
@@ -29,8 +21,3 @@ if ('WebSocket' in window) {
 else
   $('#status').text('WebSocket not supported.');
 </script>
-
-Status: <span id="status"></span><br /><br />
-Messages: <ul id="messages"></ul>
-</body>
-</html>
