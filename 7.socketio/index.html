@@ -6,9 +6,9 @@
 <body>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://127.0.0.1:3000/socket.io/socket.io.js"></script>
+<script src="http://127.0.0.1:3030/socket.io/socket.io.js"></script>
 <script type="text/javascript">
-var socket = io.connect('http://127.0.0.1:3000');
+var socket = io.connect('http://127.0.0.1:3030');
 socket.on('example message 1', function (data) {
   $('#messages').append($('<li>').text('Received message: ' + data.hello));
 });
