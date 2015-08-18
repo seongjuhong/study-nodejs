@@ -1,6 +1,6 @@
 <script type="text/javascript">
 if ('WebSocket' in window) {
-  var ws = new WebSocket('ws://127.0.0.1:8000', 'example-echo');
+  var ws = new WebSocket('ws://127.0.0.1:3030', 'example-echo');
 
   ws.onopen = function () {
     $('#status').text('connected');
