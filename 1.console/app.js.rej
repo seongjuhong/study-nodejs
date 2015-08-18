@@ -1,0 +1,4 @@
+diff a/1.console/app.js b/1.console/app.js	(rejected hunks)
+@@ -0 +0 @@
+-console.log('Hello World');
++console.log('Hello World...');
